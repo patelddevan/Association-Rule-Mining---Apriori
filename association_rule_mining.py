@@ -166,10 +166,10 @@ def brute_force(minimum_support, minimum_confidence, transaction_database_id):
     return result
     
 def main():
-    #minimum_support = raw_input("Enter minimum support: ")
-    #minimum_confidence = raw_input("Enter minimum confidence: ")
-    minimum_support = 0.15
-    minimum_confidence = 0.50
+    minimum_support = raw_input("Enter minimum support: ")
+    minimum_confidence = raw_input("Enter minimum confidence: ")
+    #minimum_support = 0.15
+    #minimum_confidence = 0.50
     print("Minimum support", minimum_support)
     print("Minimum confidence", minimum_confidence)
     for db in range(1, 6):
